@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Z23 桌宠" android:textSize="24sp" android:textStyle="bold" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:text="先开悬浮窗权限，再启动。AI 配置可选。" />
+    <Button android:id="@+id/btnOverlay" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="16dp"
+        android:text="开启悬浮窗权限" />
+    <EditText android:id="@+id/etUrl" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="API URL" android:inputType="textUri" />
+    <EditText android:id="@+id/etKey" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="API Key" android:inputType="textPassword" />
+    <EditText android:id="@+id/etModel" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="模型名" android:inputType="text" />
+    <Button android:id="@+id/btnSave" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="保存 AI 配置" />
+    <Button android:id="@+id/btnStart" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="启动 Z23" />
+    <Button android:id="@+id/btnStop" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="停止 Z23" />
+</LinearLayout>
